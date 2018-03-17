@@ -1,0 +1,7 @@
+myfile2 = open ('2.txt','a')
+myfile1 = open ('1.txt','r')
+mylist1= myfile1.readlines()
+print(mylist1)
+myfile2.writelines(mylist1)
+myfile1.close()
+myfile2.close()

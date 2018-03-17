@@ -1,0 +1,6 @@
+myfile = open('1.txt','r')
+mylist1 = myfile.readlines()
+print(mylist1,end="")
+mylist2 = myfile.readlines()
+print(mylist2,end="")
+print(len(mylist))
